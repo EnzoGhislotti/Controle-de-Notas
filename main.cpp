@@ -8,6 +8,8 @@ int main() {
     for (double nota : alunos["Aecio"]) {
         std::cout << "Nota: " << nota << std::endl;
     }
+    
+    exibirMedia("Aecio", alunos["Aecio"]);
 
     return 0;
 }
