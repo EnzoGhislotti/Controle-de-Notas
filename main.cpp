@@ -1,6 +1,13 @@
 #include <iostream>
+#include "notas.h"
 
 int main() {
-    std::cout << "Sistema de Controle de Notas" << std::endl;
+    cadastrarNota("Aecio", 6.0);
+    cadastrarNota("Aecio", 8.0);
+
+    for (double nota : alunos["Aecio"]) {
+        std::cout << "Nota: " << nota << std::endl;
+    }
+
     return 0;
 }
