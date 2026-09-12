@@ -9,7 +9,7 @@ int main() {
         std::cout << "Nota: " << nota << std::endl;
     }
     
-    exibirMedia("Aecio", alunos["Aecio"]);
+    exibirMedia("Aecio", alunos["Aeico"]);
 
     return 0;
 }
